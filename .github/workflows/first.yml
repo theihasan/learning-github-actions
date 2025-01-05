@@ -1,2 +1,6 @@
 name: First workflow of Github Action learning journey
 on: [push]
+jobs:
+  jobs1:
+    name: First job of first group
+    runs-on: ubuntu-latest
