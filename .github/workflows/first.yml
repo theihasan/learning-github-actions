@@ -8,4 +8,13 @@ jobs:
       - name: First step of first job
         uses: actions/checkout@v2
       - name: Second step of first job
-        run: echo "Hello World! This is my first Github Action"
+        run: env | sort
+  jobs2:
+    name: First job of second group
+    runs-on: windows-latest
+    steps:
+      - name: First step of second job
+        uses: actions/checkout@v2
+      - name: Second step of second job
+        run: env | sort
+
