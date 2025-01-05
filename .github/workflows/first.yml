@@ -1,5 +1,9 @@
 name: First workflow of Github Action learning journey
-on: [push]
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 jobs:
   jobs1:
     name: First job of first group
