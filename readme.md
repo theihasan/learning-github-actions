@@ -5,4 +5,4 @@ clone this repo
 git clone https://github.com/theihasan/learning-github-actions.git
 ```
 
-This changes is for pull request. New feature added.
+This changes is for pull request. New feature added. Workflow testing pull request from GitHub.
