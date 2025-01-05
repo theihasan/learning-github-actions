@@ -4,3 +4,8 @@ jobs:
   jobs1:
     name: First job of first group
     runs-on: ubuntu-latest
+    steps:
+      - name: First step of first job
+        uses: actions/checkout@v2
+      - name: Second step of first job
+        run: echo "Hello World! This is my first Github Action"
